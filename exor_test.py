@@ -15,7 +15,7 @@ from cocotb.triggers import Timer, RisingEdge
 @cocotb.test()
 
 #test function name = or_test  , dut as parameter
-async def xor_test(dut):
+async def exor_test(dut):
     
     #expected input a,b posiibilties in a tuple(immutable)
     a=(0,0,1,1)
