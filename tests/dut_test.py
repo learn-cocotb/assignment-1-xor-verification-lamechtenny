@@ -14,7 +14,7 @@ from cocotb.triggers import Timer, RisingEdge
 #decorator is used to define the test function
 @cocotb.test()
 
-#test function is name or_test  , dut as parameter
+#test function name = or_test  , dut as parameter
 async def or_test(dut):
     
     #expected input a,b posiibilties in a tuple(immutable)
