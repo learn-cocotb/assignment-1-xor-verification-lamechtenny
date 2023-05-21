@@ -1,4 +1,13 @@
-module exor_text(
+module exor_test(
                 input wire a,b,
                 output wire y);
-exor
+  //module call
+  exor uut(.(a),.b(b),.y(y));
+  
+  initial 
+    begin
+      $dumpfile("waves.vcd");
+      $dumpvars;
+    end
+  
+endmodule
